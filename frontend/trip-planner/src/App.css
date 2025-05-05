@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  position: relative;
+  background-image: url("../public/background.png");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+}
+body::before {
+  content: "";
+  position: fixed; /* Make it stay in place even if there's scroll */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Black overlay */
+  z-index: -1; /* Put behind all content */
+}

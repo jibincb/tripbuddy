@@ -1,0 +1,10 @@
+uvicorn[standard]
+fastapi
+langchain
+wikipedia
+langchain-community
+langchain_google_genai
+python-dotenv
+pydantic
+tavily-python
+duckduckgo-search
